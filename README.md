@@ -21,9 +21,9 @@ streamlit run Chatbot.py
 
 ## Architecture
 
-Our model uses a combination of different ML techniques. Before any generative AI can happen, the pre-processing must first occur. The model mainly uses langchain to split the data into chunks and convert the chunks into numerical representations (embeddings).
+Our model uses a combination of different ML techniques. Before any generative AI can happen, the pre-processing must first occur. The model mainly uses langchain to split the data into chunks (sections of the text) and convert the chunks into numerical representations (embeddings).
 
- Once the pre-processing is over, the model uses Retrieval Augmented Generation (RAG), to put all the data from the 10-K into a database, known as the Knowledge Hub. We chose to use ChromaDB, as it is hosted locally. The model will use a similarity search to find the most relevant "chunk" of the 10-K document to answer the given question.
+ Once the pre-processing is over, the model uses Retrieval Augmented Generation (RAG), to put all the data from the 10-K into a database, known as the Knowledge Hub. We chose to use ChromaDB, as it is hosted locally. The model uses a similarity search to find the most relevant chunk of the 10-K document to answer the given question.
 
 <img src="Images/RAG.png" width="600px">
 
@@ -52,7 +52,7 @@ It is clear that our fine-tuned model is still not 100% accurate. From the evalu
 ## Next Steps
 In a limited time frame, and as full time college students, there were many limitations to our model that we recognized but were not able to address.
 
-1. Our model was trained using a training set that we manually created. As students, we obviously do not have the best understanding of the answers that industry analysts may be seeking, and since our model is fine-tuned on this training data the accuracy could be further improved by having better, and more, training data.
+1. Our model was trained using a training set that we manually created, meaning we had a very small training set. In addition, as students, we obviously do not have the best understanding of the answers that industry analysts may be seeking, and since our model is fine-tuned on this training data the accuracy could be further improved by having better, and more, training data.
 2. The model uses ChromaDB and upon asking a question, creates a new database, then deletes it. This process is time-consuming and can take between 20-60 seconds for a single prompt, which is not ideal. The model could be improved by optimizing this performance.
 3. Currently, the model uses OpenAI's GPT-3.5 as a base model. Ideally, the entire model could be hosted locally to reduce privacy concerns. Instead of using OpenAI's GPT-3.5, we could use a locally hosted model such as Meta's LLaMA.
 4. The model is specific to 10-K documents right now, but to scale up, we could train the model to answer questions on other financial documents too. 
