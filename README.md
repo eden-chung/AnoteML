@@ -1,6 +1,6 @@
 # AnoteML
 ## About
-We are a team of 5 college students working on this project with Anote, a NYC-based AI startup. We have used various ML and NLP techniques to create a chatbot to answer domain-specific questions. Specifically, we have created a chatbot that will accurately answer questions on financial documents (such as 10-K documents).
+We are a team of engineers  working on this project with Anote, a NYC-based AI startup. We have used various ML and NLP techniques to create a chatbot to answer domain-specific questions. Specifically, we have created a chatbot that will accurately answer questions on financial documents (such as 10-K documents).
 
 
 ## Installation and Usage
@@ -12,22 +12,30 @@ Usage:
 ```
 streamlit run Chatbot.py
 ```
+
+## Goal
+1. Create a LLM that can answer 10-K data more accurately than a generalized LLM such as GPT. 10-K documents are publically available yearly reports from companies.
+2. Reduce the time and effort human analysts have to spend manually annotating and extracting information 
+3. Finetune our model and feed in additional context in order to reduce the possibility of hallucinations to optimize the accuracy
+
+
 ## Architecture
 
-Our model uses a combination of different ML techniques. It first uses Retrieval Augmented Generation (RAG), to put all the data from the 10-K into a database, known as the Knowledge Hub
-. We chose to use ChromaDB, as it is hosted locally. The model will use a similarity search to find the most relevant "chunk" of the 10-K document to answer the given question.
+Our model uses a combination of different ML techniques. Before any generative AI can happen, the pre-processing must first occur. The model mainly uses langchain to split the data into chunks and convert the chunks into numerical representations (embeddings).
 
-<img src="Images/RAG.png">
+ Once the pre-processing is over, the model uses Retrieval Augmented Generation (RAG), to put all the data from the 10-K into a database, known as the Knowledge Hub. We chose to use ChromaDB, as it is hosted locally. The model will use a similarity search to find the most relevant "chunk" of the 10-K document to answer the given question.
+
+<img src="Images/RAG.png" width="600px">
 
 The model then uses fine-tuning with a training set of 40 data points.
 
-<img src="Images/fine_tuning_diagram.png">
+<img src="Images/fine_tuning_diagram.png" width="600px">
 
 
 ## Evaluation and Results
-Our final model can take as a user input either a PDF of the 10-K or the company ticker, along with the prompt to ask. 
+Our final model can take as a user input either a PDF of the 10-K or the company ticker, along with the question to ask. If the company ticker is inputted, then the 10-K will be automatically accessed via the EDGAR API.
 
-We evaluated the model upon 3 new 10-K documents: Dropbox, Google, and Netflix and 15 questions.
+To evaluate the model, 3 new 10-K documents were used: Dropbox, Google, and Netflix. 15 questions were asked on each 3 of these 10-Ks.
 
 Results from the baseline model: GPT-3.5 Turbo
 <img src="Images/gpt_eval.png">
