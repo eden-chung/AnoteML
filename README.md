@@ -10,7 +10,7 @@ cd AnoteML/frontend
 ```
 Usage:
 ```
-streamlit run Chatbot.py
+streamlit run Home.py
 ```
 
 ## Goal
