@@ -1,6 +1,5 @@
 import streamlit as st
 from dotenv import load_dotenv
-import PyPDF2
 from langchain.document_loaders import UnstructuredPDFLoader, OnlinePDFLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
@@ -10,15 +9,12 @@ from langchain.chains import LLMChain
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
-from langchain.vectorstores import Chroma
 from langchain.chains.question_answering import load_qa_chain
-from decouple import config
 # from langchain.memory import ConversationBufferWindowMemory
 
 import json
 import datetime
 import shutil
-import tempfile
 import time
 from openai import OpenAI
 from tempfile import NamedTemporaryFile
