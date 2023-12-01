@@ -6,6 +6,7 @@ We are a team of engineers  working on this project with Anote, a NYC-based AI s
 ## Installation and Usage
 ```
 git clone https://github.com/eden-chung/AnoteML/
+pip install -r requirements.txt
 cd AnoteML/frontend
 ```
 Usage:
