@@ -1,6 +1,6 @@
 # AnoteML
 ## About
-We are a team of engineers  working on this project with Anote, a NYC-based AI startup. We have used various ML and NLP techniques to create a chatbot to answer domain-specific questions. Specifically, we have created a chatbot that will accurately answer questions on financial documents (such as 10-K documents).
+Developed for Anote, a NYC-based AI startup, this project features a LLM chatbot powered by various ML and NLP techniques. The chatbot answers domain-specific questions, with a particular focus on financial documents (such as 10-K documents).
 
 
 ## Installation and Usage
