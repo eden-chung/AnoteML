@@ -6,8 +6,9 @@ Developed for Anote, a NYC-based AI startup, this project features a LLM chatbot
 ## Installation and Usage
 ```
 git clone https://github.com/eden-chung/AnoteML/
+cd AnoteML
 pip install -r requirements.txt
-cd AnoteML/frontend
+cd frontend
 ```
 Usage:
 ```
