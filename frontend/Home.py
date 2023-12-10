@@ -1,12 +1,12 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="ANOTE Financial Chatbot",
+    page_title="Anote Financial Chatbot",
     page_icon="images/anote_ai_logo.png",
 )
-st.header("ANOTE Financial Chatbot :speech_balloon:")
-st.subheader("Welcome to ANOTE!")
-st.success("This is our Private GPT catered to data teams within the finance sector to answer questions on documents such as 10-Ks.\n\n Chat about your documents while keeping your data private and secure. ")
+st.header("Anote Financial Chatbot :speech_balloon:")
+st.subheader("Welcome to Anote's Finance Chatbot!")
+st.success("This is a chatbot catered to data teams within the finance sector to answer questions on documents such as 10-Ks.\n\n Chat about your documents while keeping your data secure. ")
 st.info("You can select between either of the available options: ")
 
 # Create three columns 

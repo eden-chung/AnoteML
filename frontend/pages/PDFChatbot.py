@@ -24,7 +24,7 @@ from openai import OpenAI
 from tempfile import NamedTemporaryFile
 
 st.set_page_config(
-    page_title="ANOTE Financial Chatbot",
+    page_title="Anote Financial Chatbot",
     page_icon="images/anote_ai_logo.png",
 )
 
@@ -157,8 +157,8 @@ def fill_json(path_to_json, path_to_10k, question, answer):
 
 def main():
 
-    st.header( "ANOTE Financial Chatbot :speech_balloon:")
-    st.info("Hello! I am ANOTE's AI Assistant Please upload a pdf of your 10k document so that I can assist you!")
+    st.header( "Anote Financial Chatbot :speech_balloon:")
+    st.info("Hello! I am Anote's AI Assistant Please upload a PDF of your 10-K document so that I can assist you!")
 
     # File Uploader for PDFs
     uploaded_files = st.file_uploader("Upload 10-K PDFs", type="pdf", accept_multiple_files=True)

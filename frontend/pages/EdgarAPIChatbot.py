@@ -26,7 +26,7 @@ else:
     from typing import Final
 
 st.set_page_config(
-    page_title="ANOTE Financial Chatbot",
+    page_title="Anote Financial Chatbot",
     page_icon="images/anote_ai_logo.png",
 )
 
@@ -341,7 +341,7 @@ def ask_gpt_finetuned_model(ticker, question):
 
 def main():
 
-    st.header("ANOTE Chatbot :speech_balloon:")
+    st.header("Anote Chatbot :speech_balloon:")
     st.info("This chatbot uses data from the U.S. Securities and Exchange Commission's (SEC) EDGAR (Electronic Data Gathering, Analysis, and Retrieval) system, which provides access to publicly available corporate filings.")
     
     ticker = st.text_input("Enter ticker:")
