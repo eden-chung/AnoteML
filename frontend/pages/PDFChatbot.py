@@ -206,15 +206,17 @@ def main():
                 message_placeholder = st.empty()
                 full_response = ""
                 
-                answer = ask_gpt_finetuned_model(file_path, prompt)
-                print(f"Answer: {answer}")
+                with st.spinner('Waiting for response...'):
+                # Fetch the response
+                    answer = ask_gpt_finetuned_model(file_path, prompt)
+                    print(f"Answer: {answer}")
 
-                # Simulate stream of response with milliseconds delay
-                for chunk in answer.split():
-                    full_response += chunk + " "
-                    time.sleep(0.05)
-                    # Add a blinking cursor to simulate typing
-                    message_placeholder.markdown(full_response + "▌")
+                    # Simulate stream of response with milliseconds delay
+                    for chunk in answer.split():
+                        full_response += chunk + " "
+                        time.sleep(0.05)
+                        message_placeholder.markdown(full_response + "▌")
+                
                 message_placeholder.markdown(full_response)
             # Add assistant response to chat history
             st.session_state.pdfmessages.append({"role": "assistant", "content": full_response})
