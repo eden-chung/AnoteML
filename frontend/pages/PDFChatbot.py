@@ -24,7 +24,7 @@ from openai import OpenAI
 from tempfile import NamedTemporaryFile
 
 st.set_page_config(
-    page_title="Anote Financial Chatbot",
+    page_title="ANOTE Financial Chatbot",
     page_icon="images/anote_ai_logo.png",
 )
 
@@ -43,7 +43,6 @@ def process_file(uploaded_file):
 
     st.success(f"File processed successfully.")
     return temp_file_path
-
 
 def ask_gpt_finetuned_model(path_to_10k, question):
     db, db_dir = create_knowledge_hub(path_to_10k)
@@ -157,8 +156,8 @@ def fill_json(path_to_json, path_to_10k, question, answer):
 
 def main():
 
-    st.header( "Anote Financial Chatbot :speech_balloon:")
-    st.info("Hello! I am Anote's AI Assistant Please upload a PDF of your 10-K document so that I can assist you!")
+    st.header( "ANOTE Financial Chatbot :speech_balloon:")
+    st.info("Hello! I am ANOTE's AI Assistant. Please upload a pdf of your 10k document so that I can assist you!")
 
     # File Uploader for PDFs
     uploaded_files = st.file_uploader("Upload 10-K PDFs", type="pdf", accept_multiple_files=True)
@@ -206,17 +205,15 @@ def main():
                 message_placeholder = st.empty()
                 full_response = ""
                 
-                with st.spinner('Waiting for response...'):
-                # Fetch the response
-                    answer = ask_gpt_finetuned_model(file_path, prompt)
-                    print(f"Answer: {answer}")
+                answer = ask_gpt_finetuned_model(file_path, prompt)
+                print(f"Answer: {answer}")
 
-                    # Simulate stream of response with milliseconds delay
-                    for chunk in answer.split():
-                        full_response += chunk + " "
-                        time.sleep(0.05)
-                        message_placeholder.markdown(full_response + "▌")
-                
+                # Simulate stream of response with milliseconds delay
+                for chunk in answer.split():
+                    full_response += chunk + " "
+                    time.sleep(0.05)
+                    # Add a blinking cursor to simulate typing
+                    message_placeholder.markdown(full_response + "▌")
                 message_placeholder.markdown(full_response)
             # Add assistant response to chat history
             st.session_state.pdfmessages.append({"role": "assistant", "content": full_response})
