@@ -6,7 +6,7 @@ st.set_page_config(
 )
 st.header("ANOTE Financial Chatbot :speech_balloon:")
 st.subheader("Welcome to ANOTE!")
-st.success("This is our Private GPT. We aim to help data teams within the finance sector to answer questions on documents such as 10-Ks.\n\n Come chat about your documents while keeping your data private and secure. ")
+st.success("This is our financial chatbot. We aim to help data teams within the finance sector to answer questions on documents such as 10-Ks.\n\n Come chat about your documents! ")
 st.info("You can select between either of the available options: ")
 
 # Create three columns 
