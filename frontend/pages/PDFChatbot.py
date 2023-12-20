@@ -204,10 +204,21 @@ def main():
             with st.chat_message("assistant", avatar=assistant_avatar):
                 message_placeholder = st.empty()
                 full_response = ""
-                
-                answer = ask_gpt_finetuned_model(file_path, prompt)
-                print(f"Answer: {answer}")
 
+                with st.spinner('Waiting for response...'):
+                # Fetch the response
+                    answer = ask_gpt_finetuned_model(file_path, prompt)
+                    print(f"Answer: {answer}")
+
+                    # Simulate stream of response with milliseconds delay
+                    for chunk in answer.split():
+                        full_response += chunk + " "
+                        time.sleep(0.05)
+                        message_placeholder.markdown(full_response + "▌")
+                
+                message_placeholder.markdown(full_response)
+                
+                
                 # Simulate stream of response with milliseconds delay
                 for chunk in answer.split():
                     full_response += chunk + " "
