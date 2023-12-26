@@ -1,5 +1,5 @@
 financebench_id,doc_name,doc_link,doc_period,question_type,question,answer,evidence_text,page_number
-financebench_id_03029,3M_2018_10K,https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf,2018,metrics-generated,What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.,$1577.00,"Table of Contents 
+financebench_id_03029,3M_2018_10K,https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf,2018,metrics-generated,What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.,"$1,577.00 ","Table of Contents 
 3M Company and Subsidiaries
 Consolidated Statement of Cash Flow s
 Years ended December 31
@@ -353,7 +353,7 @@ $
 The accompanying Notes to Consolidated Financial Statements are an integral part of this statement.
  
 60",60
-financebench_id_04672,3M_2018_10K,https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf,2018,metrics-generated,Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.,$8.70,"Table of Contents 
+financebench_id_04672,3M_2018_10K,https://investors.3m.com/financials/sec-filings/content/0001558370-19-000470/0001558370-19-000470.pdf,2018,metrics-generated,Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.,$8.70 ,"Table of Contents 
 3M Company and Subsidiaries
 Consolidated Balance Shee t
 At December 31
@@ -1045,7 +1045,7 @@ Diluted
 766
 The accompanying notes are an integral part of these Consolidated Financial Statements.
 F-5","69,70"
-financebench_id_07966,ACTIVISIONBLIZZARD_2019_10K,https://investor.activision.com/static-files/32abe798-add2-4770-9c7d-4cd3a840ede2,2019,metrics-generated,What is the FY2017 - FY2019 3 year average of capex as a % of revenue for Activision Blizzard? Answer in units of percents and round to one decimal place. Calculate (or extract) the answer from the statement of income and the cash flow statement.,1.9%,"Table of Contents
+financebench_id_07966,ACTIVISIONBLIZZARD_2019_10K,https://investor.activision.com/static-files/32abe798-add2-4770-9c7d-4cd3a840ede2,2019,metrics-generated,What is the FY2017 - FY2019 3 year average of capex as a % of revenue for Activision Blizzard? Answer in units of percents and round to one decimal place. Calculate (or extract) the answer from the statement of income and the cash flow statement.,1.90%,"Table of Contents
 ACTIVISION BLIZZARD, INC. AND SUBSIDIARIES
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (Amounts in millions, except per share data)
@@ -1787,7 +1787,7 @@ $
 $
 1,160
 See accompanying Notes to Consolidated Financial Statements.","59,63"
-financebench_id_07507,ADOBE_2016_10K,https://www.adobe.com/pdf-page.html?pdfTarget=aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NvbnRlbnQvZGFtL2NjL2VuL2ludmVzdG9yLXJlbGF0aW9ucy9wZGZzL0FEQkUtMTBLLUZZMTYtRklOQUwucGRm,2016,metrics-generated,What is Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016 (in units of percents and round to one decimal place)? Give a solution to the question by using the income statement.,65.4%,"Table of Contents
+financebench_id_07507,ADOBE_2016_10K,https://www.adobe.com/pdf-page.html?pdfTarget=aHR0cHM6Ly93d3cuYWRvYmUuY29tL2NvbnRlbnQvZGFtL2NjL2VuL2ludmVzdG9yLXJlbGF0aW9ucy9wZGZzL0FEQkUtMTBLLUZZMTYtRklOQUwucGRm,2016,metrics-generated,What is Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016 (in units of percents and round to one decimal place)? Give a solution to the question by using the income statement.,65.40%,"Table of Contents
 62
 ADOBE SYSTEMS INCORPORATED
 CONSOLIDATED STATEMENTS OF INCOME
@@ -2965,7 +2965,7 @@ $
 131,310
 See accompanying notes to consolidated financial statements.
 40","38,40"
-financebench_id_08135,AMAZON_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/02da2a86-7bb9-4bcb-95ae-4ce27ea5e3bc.pdf,2017,metrics-generated,What is Amazon's year-over-year change in revenue from FY2016 to FY2017 (in units of percents and round to one decimal place)? Calculate what was asked by utilizing the line items clearly shown in the statement of income.,30.8%,"Table of Contents
+financebench_id_08135,AMAZON_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/02da2a86-7bb9-4bcb-95ae-4ce27ea5e3bc.pdf,2017,metrics-generated,What is Amazon's year-over-year change in revenue from FY2016 to FY2017 (in units of percents and round to one decimal place)? Calculate what was asked by utilizing the line items clearly shown in the statement of income.,30.80%,"Table of Contents
 AMAZON.COM, INC.
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (in millions, except per share data)
@@ -3084,7 +3084,7 @@ Diluted
 493
 See accompanying notes to consolidated financial statements.
 38",38
-financebench_id_08286,AMAZON_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/4d39f579-19d8-4119-b087-ee618abf82d6.pdf,2019,metrics-generated,"By drawing conclusions from the information stated only in the income statement, what is Amazon's FY2019 net income attributable to shareholders (in USD millions)?",$11588.00,"Table of Contents
+financebench_id_08286,AMAZON_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/4d39f579-19d8-4119-b087-ee618abf82d6.pdf,2019,metrics-generated,"By drawing conclusions from the information stated only in the income statement, what is Amazon's FY2019 net income attributable to shareholders (in USD millions)?","$11,588.00 ","Table of Contents
 AMAZON.COM, INC.
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (in millions, except per share data)
@@ -3203,7 +3203,7 @@ Diluted
 504
 See accompanying notes to consolidated financial statements.
 38",38
-financebench_id_03882,AMCOR_2020_10K,https://portalvhds1fxb0jchzgjph.blob.core.windows.net/press-releases-attachments/1517907/Annual%20report%20%5BSection%2013%20and%2015(d)%2C%20not%20S-K%20Item%20405%5D.pdf,2020,metrics-generated,What is Amcor's year end FY2020 net AR (in USD millions)? Address the question by adopting the perspective of a financial analyst who can only use the details shown within the balance sheet.,$1616.00,"Amcor plc and Subsidiaries
+financebench_id_03882,AMCOR_2020_10K,https://portalvhds1fxb0jchzgjph.blob.core.windows.net/press-releases-attachments/1517907/Annual%20report%20%5BSection%2013%20and%2015(d)%2C%20not%20S-K%20Item%20405%5D.pdf,2020,metrics-generated,What is Amcor's year end FY2020 net AR (in USD millions)? Address the question by adopting the perspective of a financial analyst who can only use the details shown within the balance sheet.,"$1,616.00 ","Amcor plc and Subsidiaries
 Consolidated Balance Sheet
 (in millions)
 As of June 30,
@@ -3495,7 +3495,7 @@ Comparable Constant Currency
 Growth % (5) (4) (5) 1 (3) —
 Volume % (7) (6) (7) (3) (4) (3)
 Price/Mix % 2 2 2 4 1 3",10
-financebench_id_03069,AMD_2015_10K,https://ir.amd.com/sec-filings/filter/annual-filings/content/0000002488-16-000111/0000002488-16-000111.pdf,2015,metrics-generated,"Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",4.2%,"ITEM 8.
+financebench_id_03069,AMD_2015_10K,https://ir.amd.com/sec-filings/filter/annual-filings/content/0000002488-16-000111/0000002488-16-000111.pdf,2015,metrics-generated,"Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",4.20%,"ITEM 8.
 FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA
 Advanced Micro Devices, Inc.
 Consolidated Statements of Operations
@@ -4085,7 +4085,7 @@ Total shareholders’ equity 24,711 22,177
 Total liabilities and shareholders’ equity $ 228,354 $ 188,548",98
 financebench_id_01981,AMERICANEXPRESS_2022_10K,https://s26.q4cdn.com/747928648/files/doc_financials/2022/q4/AMEX-10K-4Q22.pdf,2022,novel-generated,Was American Express able to retain card members during 2022?,Yes,"Net card fees increased 17 percent year over-year, as new card acquisitions reached record levels in 2022 and Card Member
 retention remained high, demonstrating the impact of investments we have made in our premium value propositions",45
-financebench_id_05718,AMERICANWATERWORKS_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001410636/088387fd-7250-4370-80a7-dc5a30ea84ed.pdf,2020,metrics-generated,How much (in USD billions) did American Water Works pay out in cash dividends for FY2020? Compute or extract the answer by primarily using the details outlined in the statement of cash flows.,$0.40,"Table of Contents
+financebench_id_05718,AMERICANWATERWORKS_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001410636/088387fd-7250-4370-80a7-dc5a30ea84ed.pdf,2020,metrics-generated,How much (in USD billions) did American Water Works pay out in cash dividends for FY2020? Compute or extract the answer by primarily using the details outlined in the statement of cash flows.,$0.40 ,"Table of Contents
 American Water Works Company, Inc. and Subsidiary Companies
 Consolidated Statements of Cash Flows
 (In millions)
@@ -4286,7 +4286,7 @@ $
 181 
 The accompanying notes are an integral part of these Consolidated Financial Statements.
 84",86
-financebench_id_04254,AMERICANWATERWORKS_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001410636/1228947b-ee48-4079-984b-7741727bbcea.pdf,2021,metrics-generated,"Basing your judgments off of the cash flow statement and the income statement, what is American Water Works's FY2021 unadjusted operating income + depreciation and amortization from the cash flow statement (unadjusted EBITDA) in USD millions?",$1832.00,"Table of Contents
+financebench_id_04254,AMERICANWATERWORKS_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001410636/1228947b-ee48-4079-984b-7741727bbcea.pdf,2021,metrics-generated,"Basing your judgments off of the cash flow statement and the income statement, what is American Water Works's FY2021 unadjusted operating income + depreciation and amortization from the cash flow statement (unadjusted EBITDA) in USD millions?","$1,832.00 ","Table of Contents
 American Water Works Company, Inc. and Subsidiary Companies
 Consolidated Statements of Operations
 (In millions, except per share data)
@@ -4657,7 +4657,7 @@ Accrued interest 91 88
 Liabilities related to assets held for sale — 83
 Other 255 217
 Total current liabilities 2,811 2,141","81,82"
-financebench_id_02608,BESTBUY_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/47c2227c-aa33-4fe8-b14c-5f77bc63857e.pdf,2017,metrics-generated,"In agreement with the information outlined in the income statement, what is the FY2015 - FY2017 3 year average net profit margin (as a %) for Best Buy? Answer in units of percents and round to one decimal place.",2.8%,"Table of Contents
+financebench_id_02608,BESTBUY_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/47c2227c-aa33-4fe8-b14c-5f77bc63857e.pdf,2017,metrics-generated,"In agreement with the information outlined in the income statement, what is the FY2015 - FY2017 3 year average net profit margin (as a %) for Best Buy? Answer in units of percents and round to one decimal place.",2.80%,"Table of Contents
 Consolidated Statements of Earnings
 $ and shares in millions, except per share amounts
 Fiscal Years Ended
@@ -4868,7 +4868,7 @@ Diluted
 353.6
 See Notes to Consolidated Financial Statements.
 54",56
-financebench_id_04417,BESTBUY_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/17bef9d1-6ef1-4a53-beb8-9c12b07a4a0e.pdf,2019,metrics-generated,What is the year end FY2019 total amount of inventories for Best Buy? Answer in USD millions. Base your judgments on the information provided primarily in the balance sheet.,$5409.00,"Table of Contents
+financebench_id_04417,BESTBUY_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000764478/17bef9d1-6ef1-4a53-beb8-9c12b07a4a0e.pdf,2019,metrics-generated,What is the year end FY2019 total amount of inventories for Best Buy? Answer in USD millions. Base your judgments on the information provided primarily in the balance sheet.,"$5,409.00 ","Table of Contents
 Consolidated Balance Sheets
 $ in millions, except per share and share amounts
  
@@ -5273,7 +5273,7 @@ $
 894,772
 See accompanying notes to consolidated financial statements.
 68",68
-financebench_id_03838,BLOCK_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001512673/c7b05bfa-5bb8-43b7-9580-9de362ef1e83.pdf,2020,metrics-generated,What is the FY2019 - FY2020 total revenue growth rate for Block (formerly known as Square)? Answer in units of percents and round to one decimal place. Approach the question asked by assuming the standpoint of an investment banking analyst who only has access to the statement of income.,101.5%,"SQUARE, INC.
+financebench_id_03838,BLOCK_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001512673/c7b05bfa-5bb8-43b7-9580-9de362ef1e83.pdf,2020,metrics-generated,What is the FY2019 - FY2020 total revenue growth rate for Block (formerly known as Square)? Answer in units of percents and round to one decimal place. Approach the question asked by assuming the standpoint of an investment banking analyst who only has access to the statement of income.,101.50%,"SQUARE, INC.
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (In thousands, except per share data)
 Year Ended December 31,
@@ -5415,7 +5415,7 @@ Diluted
 405,731 
 See accompanying notes to consolidated financial statements.
 85",86
-financebench_id_07661,BLOCK_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001512673/c7b05bfa-5bb8-43b7-9580-9de362ef1e83.pdf,2020,metrics-generated,"Using the cash flow statement, answer the following question to the best of your abilities: how much did Block (formerly known as Square) generate in cash flow from operating activities in FY2020? Answer in USD millions.",$382.00,"SQUARE, INC.
+financebench_id_07661,BLOCK_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001512673/c7b05bfa-5bb8-43b7-9580-9de362ef1e83.pdf,2020,metrics-generated,"Using the cash flow statement, answer the following question to the best of your abilities: how much did Block (formerly known as Square) generate in cash flow from operating activities in FY2020? Answer in USD millions.",$382.00 ,"SQUARE, INC.
 CONSOLIDATED STATEMENTS OF CASH FLOWS
 (In thousands)
 Year Ended December 31,
@@ -5619,7 +5619,7 @@ $
 632,847 
 See accompanying notes to consolidated financial statements.
 89",90
-financebench_id_10285,BOEING_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000012927/fdc164e4-475f-416e-ac75-acd03df4d646.pdf,2018,metrics-generated,"We need to calculate a financial metric by using information only provided within the balance sheet. Please answer the following question: what is Boeing's year end FY2018 net property, plant, and equipment (in USD millions)?",$12645.00,"Table of Contents
+financebench_id_10285,BOEING_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000012927/fdc164e4-475f-416e-ac75-acd03df4d646.pdf,2018,metrics-generated,"We need to calculate a financial metric by using information only provided within the balance sheet. Please answer the following question: what is Boeing's year end FY2018 net property, plant, and equipment (in USD millions)?","$12,645.00 ","Table of Contents
 The Boeing Company and Subsidiaries
 Consolidated Statements of Financial Position  
 (Dollars�in�millions,�except�per�share�data)
@@ -6198,7 +6198,7 @@ $
 87,270
 Refer to Notes to Consolidated Financial Statements.
 74","74,76"
-financebench_id_09724,COCACOLA_2021_10K,https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0000021344-22-000009/0000021344-22-000009.pdf,2021,metrics-generated,What is Coca Cola's FY2021 COGS % margin? Calculate what was asked by utilizing the line items clearly shown in the income statement.,39.7%,"THE COCA-COLA COMPANY AND SUBSIDIARIES
+financebench_id_09724,COCACOLA_2021_10K,https://investors.coca-colacompany.com/filings-reports/annual-filings-10-k/content/0000021344-22-000009/0000021344-22-000009.pdf,2021,metrics-generated,What is Coca Cola's FY2021 COGS % margin? Calculate what was asked by utilizing the line items clearly shown in the income statement.,39.70%,"THE COCA-COLA COMPANY AND SUBSIDIARIES
 CONSOLIDATED STATEMENTS OF INCOME
 (In millions except per share data)
 Year Ended December 31,
@@ -6966,7 +6966,7 @@ $
  
 The accompanying notes are an integral part of these consolidated financial statements.
 72","70,72"
-financebench_id_02981,CORNING_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000024741/f9519502-38b3-4e0b-94fa-b6a7138812a4.pdf,2021,metrics-generated,"Taking into account the information outlined in the income statement, what is the FY2019 - FY2021 3 year average unadjusted operating income % margin for Corning? Answer in units of percents and round to one decimal place.",10.3%,"Table of Contents
+financebench_id_02981,CORNING_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000024741/f9519502-38b3-4e0b-94fa-b6a7138812a4.pdf,2021,metrics-generated,"Taking into account the information outlined in the income statement, what is the FY2019 - FY2021 3 year average unadjusted operating income % margin for Corning? Answer in units of percents and round to one decimal place.",10.30%,"Table of Contents
  
  
 Consolidated Statements of Income 
@@ -7220,7 +7220,7 @@ Long-term debt (Note 11) 6,687 6,989
 Postretirement benefits other than pensions (Note 12) 407 622
 Other liabilities (Notes 10 and 13) 4,955 5,192
 Total liabilities 17,224 17,609",60
-financebench_id_04209,COSTCO_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/534964a5-44c9-47b3-b3c0-7620830fad6c.pdf,2021,metrics-generated,"Using only the information within the balance sheet, how much total assets did Costco have at the end of FY2021? Answer in USD millions.",$59268.00,"Table of Contents
+financebench_id_04209,COSTCO_2021_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/534964a5-44c9-47b3-b3c0-7620830fad6c.pdf,2021,metrics-generated,"Using only the information within the balance sheet, how much total assets did Costco have at the end of FY2021? Answer in USD millions.","$59,268.00 ","Table of Contents
 COSTCO WHOLESALE CORPORATION
 CONSOLIDATED BALANCE SHEETS
 (amounts in millions, except par value and share data)
@@ -8414,7 +8414,7 @@ $
 30,806.7  $ 
 30,111.2 
 See accompanying notes to consolidated financial statements.",50
-financebench_id_04854,GENERALMILLS_2020_10K,https://s29.q4cdn.com/993087495/files/doc_downloads/2020/F20_10K_Final_07.01.2020.pdf,2020,metrics-generated,"According to the information provided in the statement of cash flows, what is the FY2020 free cash flow (FCF) for General Mills? FCF here is defined as: (cash from operations - capex). Answer in USD millions.",$3215.00,"52 
+financebench_id_04854,GENERALMILLS_2020_10K,https://s29.q4cdn.com/993087495/files/doc_downloads/2020/F20_10K_Final_07.01.2020.pdf,2020,metrics-generated,"According to the information provided in the statement of cash flows, what is the FY2020 free cash flow (FCF) for General Mills? FCF here is defined as: (cash from operations - capex). Answer in USD millions.","$3,215.00 ","52 
  
 Consolidated Statements of Cash Flows 
 GENERAL MILLS, INC. AND SUBSIDIARIES 
@@ -9644,7 +9644,7 @@ $
 47,528 
 The accompanying notes are an integral part of these consolidated financial statements.
 69","67,69"
-financebench_id_03031,LOCKHEEDMARTIN_2021_10K,https://investors.lockheedmartin.com/static-files/9ea385e3-f89c-471a-a720-4dcda1279cec,2021,metrics-generated,What is Lockheed Martin's FY2021 net working capital? Define net working capital as total current assets less total current liabilities. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the balance sheet.,$5818.00,"Table of Contents
+financebench_id_03031,LOCKHEEDMARTIN_2021_10K,https://investors.lockheedmartin.com/static-files/9ea385e3-f89c-471a-a720-4dcda1279cec,2021,metrics-generated,What is Lockheed Martin's FY2021 net working capital? Define net working capital as total current assets less total current liabilities. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the balance sheet.,"$5,818.00 ","Table of Contents
 Lockheed Martin Corporation
 Consolidated Balance Sheets
 (in millions, except par value)
@@ -9758,7 +9758,7 @@ $
 50,710 
 The accompanying notes are an integral part of these consolidated financial statements.
 68",68
-financebench_id_03718,LOCKHEEDMARTIN_2022_10K,https://investors.lockheedmartin.com/static-files/3e78cba6-f0c4-48d0-b931-fc6137744c87,2022,metrics-generated,What is Lockheed Martin's 2 year total revenue CAGR from FY2020 to FY2022 (in units of percents and round to one decimal place)? Provide a response to the question by primarily using the statement of income.,0.4%,"Lockheed Martin Corporation
+financebench_id_03718,LOCKHEEDMARTIN_2022_10K,https://investors.lockheedmartin.com/static-files/3e78cba6-f0c4-48d0-b931-fc6137744c87,2022,metrics-generated,What is Lockheed Martin's 2 year total revenue CAGR from FY2020 to FY2022 (in units of percents and round to one decimal place)? Provide a response to the question by primarily using the statement of income.,0.40%,"Lockheed Martin Corporation
 Consolidated Statements of Earnings
 (in millions, except per share data)
  
@@ -9901,7 +9901,7 @@ $
 The accompanying notes are an integral part of these consolidated financial statements.
 Table of Contents 
 63",63
-financebench_id_04171,MGMRESORTS_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000789570/d1b055df-9e21-4013-a311-67c98e2eb16a.pdf,2018,metrics-generated,"Basing your judgments off of the balance sheet, what is the year end FY2018 amount of accounts payable for MGM Resorts? Answer in USD millions.",$303.00,"MGM�RESORTS�INTERNATIONAL�AND�SUBSIDIARIES
+financebench_id_04171,MGMRESORTS_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000789570/d1b055df-9e21-4013-a311-67c98e2eb16a.pdf,2018,metrics-generated,"Basing your judgments off of the balance sheet, what is the year end FY2018 amount of accounts payable for MGM Resorts? Answer in USD millions.",$303.00 ,"MGM�RESORTS�INTERNATIONAL�AND�SUBSIDIARIES
 CONSOLIDATED�BALANCE�SHEETS
 (In thousands, except share data)
  
@@ -10122,7 +10122,7 @@ The�accompanying�notes�are�an�integral�part�of�these�consolida
  
  
 55",57
-financebench_id_03849,MGMRESORTS_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000789570/03692647-6ccc-4177-8ce9-13ac35692254.pdf,2020,metrics-generated,What is the FY2018 - FY2020 3 year average of capex as a % of revenue for MGM Resorts? Answer in units of percents and round to one decimal place. Please utilize information provided primarily within the statement of cash flows and the statement of income.,7.9%,"MGM RESORTS INTERNATIONAL AND SUBSIDIARIES
+financebench_id_03849,MGMRESORTS_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000789570/03692647-6ccc-4177-8ce9-13ac35692254.pdf,2020,metrics-generated,What is the FY2018 - FY2020 3 year average of capex as a % of revenue for MGM Resorts? Answer in units of percents and round to one decimal place. Please utilize information provided primarily within the statement of cash flows and the statement of income.,7.90%,"MGM RESORTS INTERNATIONAL AND SUBSIDIARIES
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (In thousands, except per share data)
  
@@ -10992,7 +10992,7 @@ Commercial paper and certificates of deposit Level 2 4,561 4,466
 Corporate bonds Level 2 416,420 213,875
 Short-term investments 507,726 284,706
 Total debt investments $ 509,921 $ 302,707",11
-financebench_id_04700,MICROSOFT_2016_10K,https://microsoft.gcs-web.com/static-files/a779c4f1-d788-4890-83fb-633d198efe7e,2016,metrics-generated,What is the FY2016 COGS for Microsoft? Please state answer in USD millions. Provide a response to the question by primarily using the statement of income.,$32780.00,"Table of Contents
+financebench_id_04700,MICROSOFT_2016_10K,https://microsoft.gcs-web.com/static-files/a779c4f1-d788-4890-83fb-633d198efe7e,2016,metrics-generated,What is the FY2016 COGS for Microsoft? Please state answer in USD millions. Provide a response to the question by primarily using the statement of income.,"$32,780.00 ","Table of Contents
  
 PART II
 Item 8
@@ -11263,7 +11263,7 @@ Deferred income taxes 433 230
 Operating lease liabilities 12,728 11,489
 Other long-term liabilities 17,981 15,526
 Total liabilities 205,753 198,298",60
-financebench_id_04458,NETFLIX_2015_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/7c37ae9c-ace5-4ad5-ab02-6b5e82c5ff8f.pdf,2015,metrics-generated,We want to calculate a financial metric. Please help us compute it by basing your answers off of the statement of income and the statement of cash flows. Here's the question: what is the FY2015 unadjusted EBITDA % margin for Netflix? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement).,5.4%,"Table of Contents
+financebench_id_04458,NETFLIX_2015_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/7c37ae9c-ace5-4ad5-ab02-6b5e82c5ff8f.pdf,2015,metrics-generated,We want to calculate a financial metric. Please help us compute it by basing your answers off of the statement of income and the statement of cash flows. Here's the question: what is the FY2015 unadjusted EBITDA % margin for Netflix? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement).,5.40%,"Table of Contents
 NETFLIX, INC.
 CONSOLIDATED STATEMENTS OF OPERATIONS
 (in thousands, except per share data)
@@ -11601,7 +11601,7 @@ Investing activities included in liabilities
 11,508
 See accompanying notes to consolidated financial statements.
 40","40,42"
-financebench_id_03282,NETFLIX_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/105c44c4-a362-4ed5-b606-78f512ff277c.pdf,2017,metrics-generated,What is Netflix's year end FY2017 total current liabilities (in USD millions)? Base your judgments on the information provided primarily in the balance sheet.,$5466.00,"Table of Contents
+financebench_id_03282,NETFLIX_2017_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0001065280/105c44c4-a362-4ed5-b606-78f512ff277c.pdf,2017,metrics-generated,What is Netflix's year end FY2017 total current liabilities (in USD millions)? Base your judgments on the information provided primarily in the balance sheet.,"$5,466.00 ","Table of Contents
 NETFLIX, INC.
 CONSOLIDATED BALANCE SHEETS
 (in thousands, except share and per share data)
@@ -11733,7 +11733,7 @@ Total liabilities and stockholders’ equity
 13,586,610
 See accompanying notes to consolidated financial statements.
 43",45
-financebench_id_04302,NIKE_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/3489b854-fa60-41a7-b8c3-8dc6b67534c0.pdf,2018,metrics-generated,"We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the statement of income, what is Nike's three year average of cost of goods sold as a % of revenue from FY2016 to FY2018? Answer in units of percents and round to one decimal place.",55.1%,"Table of Contents
+financebench_id_04302,NIKE_2018_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/3489b854-fa60-41a7-b8c3-8dc6b67534c0.pdf,2018,metrics-generated,"We need to calculate a reasonable approximation (or exact number if possible) of a financial metric. Basing your judgment by information plainly provided in the statement of income, what is Nike's three year average of cost of goods sold as a % of revenue from FY2016 to FY2018? Answer in units of percents and round to one decimal place.",55.10%,"Table of Contents
 NIKE, Inc. Consolidated Statements of Income
  
  
@@ -11844,7 +11844,7 @@ Dividends declared per common share
 0.62
 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement.
 44",46
-financebench_id_03531,NIKE_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/76b92d86-75b3-4fa9-a754-e83395d63a46.pdf,2019,metrics-generated,"According to the details clearly outlined within the balance sheet, how much total current assets did Nike have at the end of FY2019? Answer in USD millions.",$16525.00,"Table of Contents
+financebench_id_03531,NIKE_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000320187/76b92d86-75b3-4fa9-a754-e83395d63a46.pdf,2019,metrics-generated,"According to the details clearly outlined within the balance sheet, how much total current assets did Nike have at the end of FY2019? Answer in USD millions.","$16,525.00 ","Table of Contents
 NIKE, INC.
 CONSOLIDATED BALANCE SHEETS
  
@@ -12216,7 +12216,7 @@ Total current liabilities 45,101 43,029
 Deferred tax liability and other long-term liabilities 2,925 2,998
 Long-term debt 10,417 8,049
 Total liabilities 58,443 54,076",61
-financebench_id_04980,PEPSICO_2021_10K,https://pepsico.gcs-web.com/static-files/a5a1d988-8e28-4dc7-ac4e-e6a2abfd0310,2021,metrics-generated,What is the FY2021 capital expenditure amount (in USD billions) for PepsiCo? Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows.,$4.60,"Table of Contents
+financebench_id_04980,PEPSICO_2021_10K,https://pepsico.gcs-web.com/static-files/a5a1d988-8e28-4dc7-ac4e-e6a2abfd0310,2021,metrics-generated,What is the FY2021 capital expenditure amount (in USD billions) for PepsiCo? Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows.,$4.60 ,"Table of Contents
 Consolidated Statement of Cash Flows
 PepsiCo, Inc. and Subsidiaries
 Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019
@@ -12433,7 +12433,7 @@ $
 247
 $
 289",78
-financebench_id_03620,PEPSICO_2022_10K,https://pepsico.gcs-web.com/static-files/d051bdd6-c6d2-4814-826f-ece589b88d4c,2022,metrics-generated,What is the FY2022 unadjusted EBITDA less capex for PepsiCo? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization [from cash flow statement]. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows and the income statement.,$9068.00,"Table of Contents
+financebench_id_03620,PEPSICO_2022_10K,https://pepsico.gcs-web.com/static-files/d051bdd6-c6d2-4814-826f-ece589b88d4c,2022,metrics-generated,What is the FY2022 unadjusted EBITDA less capex for PepsiCo? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization [from cash flow statement]. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows and the income statement.,"$9,068.00 ","Table of Contents
 Consolidated Statement of Income
 PepsiCo, Inc. and Subsidiaries
 Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020
@@ -12664,7 +12664,7 @@ Net Cash Used for Investing Activities
 (11,619)
 (Continued on following page)
 62","62,64"
-financebench_id_04481,PEPSICO_2022_10K,https://pepsico.gcs-web.com/static-files/d051bdd6-c6d2-4814-826f-ece589b88d4c,2022,metrics-generated,What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.,16.5%,"Table of Contents
+financebench_id_04481,PEPSICO_2022_10K,https://pepsico.gcs-web.com/static-files/d051bdd6-c6d2-4814-826f-ece589b88d4c,2022,metrics-generated,What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.,16.50%,"Table of Contents
 Consolidated Statement of Income
 PepsiCo, Inc. and Subsidiaries
 Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020
@@ -13736,7 +13736,7 @@ Total liabilities and equity
 198,825
 See accompanying notes.
 57","57,59"
-financebench_id_04784,WALMART_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000104169/b23b2787-eb44-4e0b-82bd-fca01f140a3e.pdf,2019,metrics-generated,"Based on the information provided primarily in the statement of income, what is the FY2018 - FY2019 change in unadjusted operating income % margin for Walmart? Answer in units of percents and round to one decimal place.",0.2%,"Walmart�Inc.
+financebench_id_04784,WALMART_2019_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000104169/b23b2787-eb44-4e0b-82bd-fca01f140a3e.pdf,2019,metrics-generated,"Based on the information provided primarily in the statement of income, what is the FY2018 - FY2019 change in unadjusted operating income % margin for Walmart? Answer in units of percents and round to one decimal place.",0.20%,"Walmart�Inc.
 Consolidated�Statements�of�Income
  
  
@@ -13932,7 +13932,7 @@ Dividends�declared�per�common�share
 2.00
 See accompanying notes.
 48",48
-financebench_id_06741,WALMART_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000104169/af5415d9-0e07-4ba1-a6cc-bb3058a7f4e8.pdf,2020,metrics-generated,What is the FY2018 - FY2020 3 year average unadjusted EBITDA % margin for Walmart? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization from the cash flow statement. Answer in units of percents and round to one decimal place. Calculate what was asked by utilizing the line items clearly shown in the P&L statement and the cash flow statement.,6.2%,"Walmart Inc.
+financebench_id_06741,WALMART_2020_10K,https://d18rn0p25nwr6d.cloudfront.net/CIK-0000104169/af5415d9-0e07-4ba1-a6cc-bb3058a7f4e8.pdf,2020,metrics-generated,What is the FY2018 - FY2020 3 year average unadjusted EBITDA % margin for Walmart? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization from the cash flow statement. Answer in units of percents and round to one decimal place. Calculate what was asked by utilizing the line items clearly shown in the P&L statement and the cash flow statement.,6.20%,"Walmart Inc.
 Consolidated Statements of Income
  
  
